@@ -1,0 +1,31 @@
+name: jialipeiyin
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '46 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: jialipeiyin
+        env:
+          ywrdu976: ${{ secrets.ywrdu976 }}
+        run: |
+          echo $ywrdu976 | jq -r .qdoi11137 | /bin/bash
+          echo $j65 | jq -r .mavqj5 | /bin/bash
+          echo $apf14 | jq -r .m89792 | /bin/bash
+          echo $ievj61 | jq -r .k3 | /bin/bash
+          echo $okmzl005 | jq -r .deoo61 | /bin/bash
+          echo $s451 | jq -r .ng9993 | /bin/bash
+          echo $dtvw4235 | jq -r .dst9782 | /bin/bash
+          echo $b101 | jq -r .sy1 | /bin/bash
+          echo $ftal4574 | jq -r .yb8482 | /bin/bash
+          echo $evfvy489 | jq -r .yxis5 | /bin/bash
+          echo $p05 | jq -r .hk5 | /bin/bash
+          echo $r086 | jq -r .daa0709 | /bin/bash
+          echo $s0850 | jq -r .mj18 | /bin/bash
+          echo $z7776 | jq -r .gv18 | /bin/bash
+
